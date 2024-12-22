@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    background-color: aliceblue;
+}
+.item>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+.list{
+    font-size: 30px;
+    display: none;
+}
+
+.container{
+    background-image: url(https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg);
+    min-height: 900px;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container-1{
+    color: white;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+}
+.a{
+    font-size: 59px;
+}
+
+.container-2{
+    width: 90%;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+background-color:cadetblue;
+}
+
+.area>select, .price>select{
+    padding: 20px;
+    font-size: 20px;
+border: none;
+
+}
+.location>input{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+}
+.search >i{
+    background-color: cadetblue;
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+.container-3{
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    /* background-color: white; */
+    width: 70%;
+}
+.b{
+    width: 70px;
+    height: 70px;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.b :hover{
+    
+    background-color: lightslategray;
+    transition: 0.5s ;
+    border-radius: 50%;
+}
+.container-4{
+    display: flex;
+    width: 70%;
+    /* background-color: white; */
+    font-size: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+}
