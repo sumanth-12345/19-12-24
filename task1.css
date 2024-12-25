@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main{
+    /* background-image: url(https://www.w3schools.com/w3images/photographer.jpg); */
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  
+}
+.image{
+    width: 100%;
+    height: auto;
+    box-sizing: inherit; 
+    vertical-align: middle;
+    text-align: center;
+     position: relative; 
+
+}
+.a1{
+    border: 1px solid #ccc;
+    color: #f1f1f1;
+    padding: 12px 24px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.b1{
+    font-size: 3.5rem;
+}
+.b2{
+    font-size: 20px;
+}
+.a2{
+
+    width: 350px;
+    height: 50px;
+    border: solid white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.p1:hover{
+    padding: 10px;
+    background-color:darkgrey;
+}
+.p2:hover {
+    padding: 10px;
+    background-color:darkgrey;
+}
+.p3:hover{
+    padding: 10px;
+    background-color:darkgrey;
+}
+.a3{
+    max-width: 100%;
+    height: auto;
+    box-sizing: inherit;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding: 12px 24px;
+
+}
+.a4{
+    margin-top: 16px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+} 
+ .a8{
+
+    display: flex;
+    justify-content: center;
+  /* margin-left: 130px;   
+    width:80% ;
+    height: 900px;
+    background-color:pink;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;  */
+ }
+ .a5{
+    max-width:950px ;
+    height: auto;
+    color: #000 ;
+    background-color: #f1f1f1 ;
+    padding: 12px 24px;
+    padding-top:32px ;
+    padding-bottom: 32px;
+    margin-top: 16px;
+    box-sizing: inherit;
+ }
+ .a5>h1{
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    box-sizing: inherit;
+ }
+
+.p4{
+   padding-top:70px;
+   font-size: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: justify;
+    
+}
+
+
+
+.a6{
+    margin: 16px 0px;
+    box-sizing: inherit;
+}
+.c1{
+        margin: 16px 0px;
+        box-sizing: inherit;
+} 
+
+.type{
+
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    box-sizing: inherit;
+    font: inherit;
+    overflow: visible;
+
+}
+button{
+    border: 1px solid;
+    display: block;
+    padding:15px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color:darkgray;
+}
+button:hover{
+    background-color:gainsboro ;
+    color: black;
+    
+}
+a{
+    color: black; 
+    /* transition: 0.5s ease; */
+}
+a:hover{
+color:pink;
+}
+
+@media screen and (width <= 800px) {
+    .b2{
+        display: none;
+    }
+    
+}
+
+ @media screen and (min-width:200px ) and ( max-width: 1200px){
+     
+    .b1{
+        padding: 10px;
+        font-size: 16px;
+        display: block;
+    }
+}
+@media screen and ( max-width : 600px ){
+    
+    .a2{
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+}
+ @media screen and (min-width: 124px) {
+    .a1{
+        border: none;
+    }
+    
+ }
+
